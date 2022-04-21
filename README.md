@@ -1,4 +1,6 @@
-# devops-cheatsheet
+# DevOps Cheatsheet
+
+A list of commands DevOps engineers find useful for their daily activities.
 
 |Description|Linux command|Windows command|
 |--|--|--|
@@ -12,8 +14,13 @@
 | | | |
 |Check memory usage (available and free) |`free -m` | |
 | | | |
-|Set proxy |`export HTTPS_PROXY="http://your-proxy-server.com:your-proxy-port" && \` <br> `export HTTP_PROXY="http://your-proxy-server.com:your-proxy-port" && \` <br> `export NO_PROXY=".your-proxy-server.com" && \` <br> `export http_proxy="http://your-proxy-server.com:your-proxy-port" && \` <br> `export https_proxy="http://your-proxy-server.com:your-proxy-port" && \` <br> `export no_proxy=".your-proxy-server.com"` | |
+|Set proxy |`export HTTPS_PROXY="http://example.com:80"` <br> `export HTTP_PROXY="http://example.com:80"` <br> `export NO_PROXY=".example.com"` <br> `export http_proxy="http://example.com:80"` <br> `export https_proxy="http://example.com:80"` <br> `export no_proxy=".example.com"` | |
 | | | |
-|Unset proxy |`unset HTTPS_PROXY && \` <br> `unset HTTP_PROXY && \` <br> `unset NO_PROXY && \` <br> `unset http_proxy && \` <br> `unset https_proxy && \` <br> `unset no_proxy` | |
-|Check folder size |du -sh file_path | |
+|Set proxy on a single line|`export HTTPS_PROXY="http://example.com:80" && \` <br> `export HTTP_PROXY="http://example.com:80" && \` <br> `export NO_PROXY=".example.com" && \` <br> `export http_proxy="http://example.com:80" && \` <br> `export https_proxy="http://example.com:80" && \` <br> `export no_proxy=".example.com"` | |
+| | | |
+|Unset proxy |`unset HTTPS_PROXY` <br> `unset HTTP_PROXY` <br> `unset NO_PROXY` <br> `unset http_proxy` <br> `unset https_proxy` <br> `unset no_proxy` | |
+| | | |
+|Unset proxy on a single line |`unset HTTPS_PROXY && \` <br> `unset HTTP_PROXY && \` <br> `unset NO_PROXY && \` <br> `unset http_proxy && \` <br> `unset https_proxy && \` <br> `unset no_proxy` | |
+| | | |
+|Check folder size |`du -sh ./file.txt` | |
 | | | |
