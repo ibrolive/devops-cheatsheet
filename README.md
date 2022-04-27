@@ -12,7 +12,7 @@ A list of commands DevOps engineers find useful for their daily activities.
 | | | |
 |Check CPU usage |`lscpu` <br> `cat /proc/cpuinfo` | |
 | | | |
-|Check memory usage (available and free) |`free -m` | |
+|Check memory/swap usage (available and free) |`free -m` <br> `free -h` <br> `swapon --show` <br> `swapon --summary` | |
 | | | |
 |Set proxy |`export HTTPS_PROXY="http://example.com:80"` <br> `export HTTP_PROXY="http://example.com:80"` <br> `export NO_PROXY=".example.com"` <br> `export http_proxy="http://example.com:80"` <br> `export https_proxy="http://example.com:80"` <br> `export no_proxy=".example.com"` | |
 | | | |
